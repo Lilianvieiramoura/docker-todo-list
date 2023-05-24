@@ -1,6 +1,5 @@
 version: '3.8'
 services:
-
   todofront:
     image: todofrontend
     ports:
@@ -21,4 +20,4 @@ services:
       - todofront
       - todoback
     environment:
-      - FRONT-HOST=todofront
+      - FRONT_HOST=todofront
